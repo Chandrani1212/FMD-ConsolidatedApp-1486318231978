@@ -1,6 +1,3 @@
-//For Auto-scaling
-var agent = require('bluemix-autoscaling-agent');
-
 /* Sample Alert Notification Application */
 
 var express = require('express')
@@ -9,7 +6,7 @@ var express = require('express')
 
 var alert = {
 	"What": "sample alert",
-	"Where": "someserver.ibm.com",
+	"Where": "fmdserver.ibm.com",
 	"Severity": "Critical"  // Critical = 5
 }
 
